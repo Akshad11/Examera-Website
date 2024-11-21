@@ -1,0 +1,12 @@
+.ExamShop-div h2 {
+  padding: 30px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.E_cards-view {
+  padding: 20px 50px 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

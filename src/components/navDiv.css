@@ -1,0 +1,37 @@
+.Navbar-Div {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.Nav_Img-div {
+  flex: 1;
+}
+
+.NavUL-list {
+  flex: 3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+.IconBtn-div {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_log-p {
+  padding: 0px 30px 0px 30px;
+}
+
+.IconBtn-div button {
+  width: 100px;
+  height: 40px;
+  background-color: rgba(28, 0, 255, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}

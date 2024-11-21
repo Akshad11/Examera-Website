@@ -1,0 +1,59 @@
+.Exam-card {
+  width: 320px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 254, 176);
+  margin: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Eimg-div {
+  width: 100%;
+}
+.Eimg-div img {
+  width: 100%;
+  height: 190px;
+}
+.EName-div {
+  width: 100%;
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.HighText {
+  padding: 10px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.ETime-div {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EweeksStud-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallText {
+  padding: 10px 20px 10px 10px;
+  font-size: 15px;
+}
+
+.priceText {
+  padding-right: 20px;
+  color: blue;
+  font-size: 25px;
+}

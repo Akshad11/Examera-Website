@@ -1,0 +1,48 @@
+.HomePage-div {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+.HomePage-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.HomePage-div > * {
+  position: relative;
+  z-index: 2;
+}
+
+.HomePage-div h1 {
+  padding-top: 50px;
+  width: 800px;
+  font-size: 50px;
+  place-self: center;
+}
+
+.home_text-p {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 600px;
+  font-size: 21px;
+  place-self: center;
+}
+.home_btn{
+  font-size: 21px;
+  width: 160px;
+  height: 60px;
+  background-color: rgba(28, 0, 255, 1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
